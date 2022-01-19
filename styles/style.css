@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 650px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: beige;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-height: fit-content;
+    border: 2px solid darkgray;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.description {
+    display: flex;
+    max-width: 100%;
+    min-height: fit-content;
+    border: 2px solid darkgray;
+    border-radius: 3px;
+    padding: 0px 15px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: fit-content;
+    border: 2px solid darkgray;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-bottom: 7px;
+}
+
+.addComment {
+    display: flex;
+    flex-direction: column;
+}
+
+.textComment {
+    min-height: 8vh;
+    border: 2px solid darkgray;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+h2 {
+    display: flex;
+    align-self: center;
+}
+
+h3 {
+    display: flex;
+    align-self: center;
+}
+
+p {
+    display: flex;
+    align-self: flex-start;
+}
+
+.button {
+    margin-top: 10px;
+    width: 200px;
+    align-self: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: honeydew;
+    box-shadow: 0px 0px 5px 3px orange;
+    border-radius: 3px;
+}
